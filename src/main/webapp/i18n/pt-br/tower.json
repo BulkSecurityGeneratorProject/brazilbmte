@@ -1,0 +1,35 @@
+{
+  "brazilbmteApp": {
+    "tower": {
+      "home": {
+        "title": "Towers",
+        "createLabel": "Criar novo Tower",
+        "createOrEditLabel": "Criar ou editar Tower"
+      },
+      "created": "Um novo Tower foi criado com o identificador {{ param }}",
+      "updated": "Um Tower foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Tower foi deletado com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Tower {{ id }}?"
+      },
+      "detail": {
+        "title": "Tower"
+      },
+      "towerNumber": "Tower Number",
+      "serialNumber": "Serial Number",
+      "longitude": "Longitude",
+      "latitude": "Latitude",
+      "altitude": "Altitude",
+      "utmX": "Utm X",
+      "utmY": "Utm Y",
+      "progressiveDistance": "Progressive Distance",
+      "isCorner": "Is Corner",
+      "corner": "Corner",
+      "spanDistance": "Span Distance",
+      "towerType": "Tower Type",
+      "towerStructureInfo": "Tower Structure Info",
+      "geometryJson": "Geometry Json",
+      "tender": "Tender"
+    }
+  }
+}

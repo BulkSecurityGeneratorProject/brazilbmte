@@ -1,0 +1,44 @@
+{
+    "name": "Project",
+    "fields": [
+        {
+            "fieldName": "projectName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "voltage",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "projectLength",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "towerCount",
+            "fieldType": "Integer"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "geometry",
+            "otherEntityRelationshipName": "project",
+            "relationshipName": "geometryJson",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20190319011838",
+    "entityTableName": "project",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

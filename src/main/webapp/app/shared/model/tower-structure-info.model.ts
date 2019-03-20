@@ -1,0 +1,45 @@
+export interface ITowerStructureInfo {
+  id?: number;
+  folha?: number;
+  sirgas2000X?: number;
+  sirgas2000Y?: number;
+  sirgas2000Cota?: number;
+  condutorCota?: number;
+  pontosTower?: number;
+  utmCota?: number;
+  infoA?: string;
+  infoB?: string;
+  infoC?: string;
+  infoDA?: string;
+  infoDB?: string;
+  infoDC?: string;
+  infoDD?: string;
+  infoE?: string;
+  infoF?: string;
+  infoG?: string;
+  infoHA?: string;
+  infoHB?: string;
+  infoHC?: string;
+  infoIA?: string;
+  infoIB?: string;
+  infoIC?: string;
+  infoID?: string;
+  infoIE?: string;
+  infoJ?: string;
+  infoKA?: string;
+  infoKB?: string;
+  infoKC?: string;
+  infoKD?: string;
+  infoKE?: string;
+  infoKF?: string;
+  infoL?: string;
+  infoM?: string;
+  infoN?: string;
+  infoOA?: string;
+  infoOB?: string;
+  infoP?: string;
+  infoQ?: string;
+  infoR?: string;
+}
+
+export const defaultValue: Readonly<ITowerStructureInfo> = {};

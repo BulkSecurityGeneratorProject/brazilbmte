@@ -1,0 +1,25 @@
+{
+  "brazilbmteApp": {
+    "tender": {
+      "home": {
+        "title": "Tenders",
+        "createLabel": "Criar novo Tender",
+        "createOrEditLabel": "Criar ou editar Tender"
+      },
+      "created": "Um novo Tender foi criado com o identificador {{ param }}",
+      "updated": "Um Tender foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Tender foi deletado com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Tender {{ id }}?"
+      },
+      "detail": {
+        "title": "Tender"
+      },
+      "tenderName": "Tender Name",
+      "tenderLength": "Tender Length",
+      "towerCount": "Tower Count",
+      "geometryJson": "Geometry Json",
+      "project": "Project"
+    }
+  }
+}

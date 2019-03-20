@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity Tower.
+    -->
+    <changeSet id="20190319011840-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="tower_structure_info_id"
+                                 baseTableName="tower"
+                                 constraintName="fk_tower_tower_structure_info_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tower_structure_info"/>
+
+        <addForeignKeyConstraint baseColumnNames="geometry_json_id"
+                                 baseTableName="tower"
+                                 constraintName="fk_tower_geometry_json_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="geometry"/>
+
+        <addForeignKeyConstraint baseColumnNames="tender_id"
+                                 baseTableName="tower"
+                                 constraintName="fk_tower_tender_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tender"/>
+
+    </changeSet>
+</databaseChangeLog>

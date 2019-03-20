@@ -1,0 +1,21 @@
+{
+  "brazilbmteApp": {
+    "geometry": {
+      "home": {
+        "title": "Geometries",
+        "createLabel": "Create a new Geometry",
+        "createOrEditLabel": "Create or edit a Geometry"
+      },
+      "created": "A new Geometry is created with identifier {{ param }}",
+      "updated": "A Geometry is updated with identifier {{ param }}",
+      "deleted": "A Geometry is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Geometry {{ id }}?"
+      },
+      "detail": {
+        "title": "Geometry"
+      },
+      "geometryJson": "Geometry Json"
+    }
+  }
+}

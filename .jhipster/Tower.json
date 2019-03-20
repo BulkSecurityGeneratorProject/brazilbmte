@@ -1,0 +1,87 @@
+{
+    "name": "Tower",
+    "fields": [
+        {
+            "fieldName": "towerNumber",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "serialNumber",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "longitude",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "latitude",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "altitude",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "utmX",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "utmY",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "progressiveDistance",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "isCorner",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "corner",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "spanDistance",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "towerType",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "towerStructureInfo",
+            "otherEntityRelationshipName": "tower",
+            "relationshipName": "towerStructureInfo",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "geometry",
+            "otherEntityRelationshipName": "tower",
+            "relationshipName": "geometryJson",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "tender",
+            "otherEntityRelationshipName": "tower",
+            "relationshipName": "tender",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190319011840",
+    "entityTableName": "tower",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,43 @@
+{
+    "name": "Tender",
+    "fields": [
+        {
+            "fieldName": "tenderName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenderLength",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "towerCount",
+            "fieldType": "Integer"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "geometry",
+            "otherEntityRelationshipName": "tender",
+            "relationshipName": "geometryJson",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "project",
+            "otherEntityRelationshipName": "tender",
+            "relationshipName": "project",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190319011839",
+    "entityTableName": "tender",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
