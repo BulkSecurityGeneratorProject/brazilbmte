@@ -4,6 +4,7 @@ import com.nsc.brazil.bmte.BrazilbmteApp;
 import com.nsc.brazil.bmte.domain.Tower;
 import com.nsc.brazil.bmte.domain.TowerStructureInfo;
 import com.nsc.brazil.bmte.domain.TowerTemp;
+import com.nsc.brazil.bmte.utmtowgs84.WGS84;
 import com.nsc.brazil.bmte.web.rest.TowerTempResource;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -135,18 +136,17 @@ public class TowerTempTest {
     }
 
     @Test
-    public void addTower(){
-        TowerStructureInfo info = new TowerStructureInfo();
-        info.setId(new Long(100));
-        info.setFolha(1.1);
-        TowerStructureInfo infoResult = towerStructureInfoRepository.saveAndFlush(info);
+    public void updateTowerLatLon(){
+        List<Tower> towers = towerRepository.findAll();
+        for (Tower tower:towers
+             ) {
+            double x = tower.getUtmX();
+            double y = tower.getUtmY();
+            WGS84 fromUTM = WGS84.fromUTM(22,'M',x,y);
+            tower.setLongitude(fromUTM.getLongitude());
+            tower.setLatitude(fromUTM.getLatitude());
+            towerRepository.saveAndFlush(tower);
 
-        Tower tower = new Tower();
-        tower.setTowerNumber("0/1");
-        tower.setSerialNumber(new Long(1));
-        tower.setCorner(100.0);
-        tower.setTowerStructureInfo(infoResult);
-        Tower result = towerRepository.saveAndFlush(tower);
-        System.out.println(result);
+        }
     }
 }
