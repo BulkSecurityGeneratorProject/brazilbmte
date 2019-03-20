@@ -1,0 +1,223 @@
+{
+    "name": "TowerTemp",
+    "fields": [
+        {
+            "fieldName": "towerNumber",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "serialNumber",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "longitude",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "latitude",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "altitude",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "utmX",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "utmY",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "progressiveDistance",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isCorner",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "corner",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "spanDistance",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "towerType",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "folha",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "sirgas2000X",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "sirgas2000Y",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "sirgas2000Cota",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "condutorCota",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "pontosTower",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "utmCota",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoA",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoB",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoC",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoDA",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoDB",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoDC",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoDD",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoE",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoF",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoG",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoHA",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoHB",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoHC",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoIA",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoIB",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoIC",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoID",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoIE",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoJ",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoKA",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoKB",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoKC",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoKD",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoKE",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoKF",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoL",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoM",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoN",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoOA",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoOB",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoP",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoQ",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infoR",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190320032105",
+    "entityTableName": "tower_temp",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

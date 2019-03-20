@@ -1,0 +1,72 @@
+{
+  "brazilbmteApp": {
+    "towerTemp": {
+      "home": {
+        "title": "Tower Temps",
+        "createLabel": "Create a new Tower Temp",
+        "createOrEditLabel": "Create or edit a Tower Temp"
+      },
+      "created": "A new Tower Temp is created with identifier {{ param }}",
+      "updated": "A Tower Temp is updated with identifier {{ param }}",
+      "deleted": "A Tower Temp is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tower Temp {{ id }}?"
+      },
+      "detail": {
+        "title": "Tower Temp"
+      },
+      "towerNumber": "Tower Number",
+      "serialNumber": "Serial Number",
+      "longitude": "Longitude",
+      "latitude": "Latitude",
+      "altitude": "Altitude",
+      "utmX": "Utm X",
+      "utmY": "Utm Y",
+      "progressiveDistance": "Progressive Distance",
+      "isCorner": "Is Corner",
+      "corner": "Corner",
+      "spanDistance": "Span Distance",
+      "towerType": "Tower Type",
+      "folha": "Folha",
+      "sirgas2000X": "Sirgas 2000 X",
+      "sirgas2000Y": "Sirgas 2000 Y",
+      "sirgas2000Cota": "Sirgas 2000 Cota",
+      "condutorCota": "Condutor Cota",
+      "pontosTower": "Pontos Tower",
+      "utmCota": "Utm Cota",
+      "infoA": "Info A",
+      "infoB": "Info B",
+      "infoC": "Info C",
+      "infoDA": "Info DA",
+      "infoDB": "Info DB",
+      "infoDC": "Info DC",
+      "infoDD": "Info DD",
+      "infoE": "Info E",
+      "infoF": "Info F",
+      "infoG": "Info G",
+      "infoHA": "Info HA",
+      "infoHB": "Info HB",
+      "infoHC": "Info HC",
+      "infoIA": "Info IA",
+      "infoIB": "Info IB",
+      "infoIC": "Info IC",
+      "infoID": "Info ID",
+      "infoIE": "Info IE",
+      "infoJ": "Info J",
+      "infoKA": "Info KA",
+      "infoKB": "Info KB",
+      "infoKC": "Info KC",
+      "infoKD": "Info KD",
+      "infoKE": "Info KE",
+      "infoKF": "Info KF",
+      "infoL": "Info L",
+      "infoM": "Info M",
+      "infoN": "Info N",
+      "infoOA": "Info OA",
+      "infoOB": "Info OB",
+      "infoP": "Info P",
+      "infoQ": "Info Q",
+      "infoR": "Info R"
+    }
+  }
+}
