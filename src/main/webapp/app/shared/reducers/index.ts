@@ -36,6 +36,10 @@ import towerStructureInfo, {
 import towerTemp, {
   TowerTempState
 } from 'app/entities/tower-temp/tower-temp.reducer';
+// prettier-ignore
+import overheadLine, {
+  OverheadLineState
+} from 'app/entities/overhead-line/overhead-line.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 export interface IRootState {
@@ -55,6 +59,7 @@ export interface IRootState {
   readonly geometry: GeometryState;
   readonly towerStructureInfo: TowerStructureInfoState;
   readonly towerTemp: TowerTempState;
+  readonly overheadLine: OverheadLineState;
   /* jhipster-needle-add-reducer-type - JHipster will add reducer type here */
   readonly loadingBar: any;
 }
@@ -76,6 +81,7 @@ const rootReducer = combineReducers<IRootState>({
   geometry,
   towerStructureInfo,
   towerTemp,
+  overheadLine,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar
 });
