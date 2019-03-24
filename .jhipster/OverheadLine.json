@@ -1,0 +1,27 @@
+{
+    "name": "OverheadLine",
+    "fields": [
+        {
+            "fieldName": "towerId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "towerNumber",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "geometry",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190322103142",
+    "entityTableName": "overhead_line",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

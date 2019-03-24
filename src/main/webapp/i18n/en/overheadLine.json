@@ -1,0 +1,23 @@
+{
+  "brazilbmteApp": {
+    "overheadLine": {
+      "home": {
+        "title": "Overhead Lines",
+        "createLabel": "Create a new Overhead Line",
+        "createOrEditLabel": "Create or edit a Overhead Line"
+      },
+      "created": "A new Overhead Line is created with identifier {{ param }}",
+      "updated": "A Overhead Line is updated with identifier {{ param }}",
+      "deleted": "A Overhead Line is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Overhead Line {{ id }}?"
+      },
+      "detail": {
+        "title": "Overhead Line"
+      },
+      "towerId": "Tower Id",
+      "towerNumber": "Tower Number",
+      "geometry": "Geometry"
+    }
+  }
+}
