@@ -9,6 +9,7 @@ import Tender from './tender';
 import Tower from './tower';
 import Geometry from './geometry';
 import TowerStructureInfo from './tower-structure-info';
+import TowerTemp from './tower-temp';
 /* jhipster-needle-add-route-import - JHipster will add routes here */
 
 const Routes = ({ match }) => (
@@ -20,6 +21,7 @@ const Routes = ({ match }) => (
       <ErrorBoundaryRoute path={`${match.url}/tower`} component={Tower} />
       <ErrorBoundaryRoute path={`${match.url}/geometry`} component={Geometry} />
       <ErrorBoundaryRoute path={`${match.url}/tower-structure-info`} component={TowerStructureInfo} />
+      <ErrorBoundaryRoute path={`${match.url}/tower-temp`} component={TowerTemp} />
       {/* jhipster-needle-add-route-path - JHipster will routes here */}
     </Switch>
   </div>

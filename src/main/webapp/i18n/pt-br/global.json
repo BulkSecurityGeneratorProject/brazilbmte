@@ -13,6 +13,7 @@
         "tower": "Tower",
         "geometry": "Geometry",
         "towerStructureInfo": "Tower Structure Info",
+        "towerTemp": "Tower Temp",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

@@ -11,6 +11,7 @@
     <include file="config/liquibase/changelog/20190319011841_added_entity_Geometry.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20190319011842_added_entity_TowerStructureInfo.xml" relativeToChangelogFile="false"/>
 
+    <include file="config/liquibase/changelog/20190320032105_added_entity_TowerTemp.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
     <include file="config/liquibase/changelog/20190319011838_added_entity_constraints_Project.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20190319011839_added_entity_constraints_Tender.xml" relativeToChangelogFile="false"/>
