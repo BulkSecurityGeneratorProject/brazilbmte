@@ -105,7 +105,7 @@ public class TowerResourceIntTest {
     @Before
     public void setup() {
         MockitoAnnotations.initMocks(this);
-        final TowerResource towerResource = new TowerResource(towerService);
+        final TowerResource towerResource = new TowerResource(towerService,towerRepository);
         this.restTowerMockMvc = MockMvcBuilders.standaloneSetup(towerResource)
             .setCustomArgumentResolvers(pageableArgumentResolver)
             .setControllerAdvice(exceptionTranslator)

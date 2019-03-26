@@ -1,5 +1,6 @@
 package com.nsc.brazil.bmte.web.rest;
 import com.nsc.brazil.bmte.domain.Tower;
+import com.nsc.brazil.bmte.repository.TowerRepository;
 import com.nsc.brazil.bmte.service.TowerService;
 import com.nsc.brazil.bmte.web.rest.errors.BadRequestAlertException;
 import com.nsc.brazil.bmte.web.rest.util.HeaderUtil;
@@ -33,7 +34,10 @@ public class TowerResource {
 
     private final TowerService towerService;
 
-    public TowerResource(TowerService towerService) {
+    private final TowerRepository towerRepository;
+
+    public TowerResource(TowerService towerService,TowerRepository towerRepository) {
+        this.towerRepository = towerRepository;
         this.towerService = towerService;
     }
 
@@ -89,6 +93,12 @@ public class TowerResource {
         Page<Tower> page = towerService.findAll(pageable);
         HttpHeaders headers = PaginationUtil.generatePaginationHttpHeaders(page, "/api/towers");
         return ResponseEntity.ok().headers(headers).body(page.getContent());
+    }
+
+    @GetMapping("/towers/all")
+    public List<Tower> getAllTowersNoPage() {
+        log.debug("REST request to get all Towers");
+        return towerRepository.findAll();
     }
 
     /**
